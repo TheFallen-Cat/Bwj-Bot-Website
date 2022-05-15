@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#mainContainer{
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+#bwjIcon{
+    width: 30vh;
+    height: auto;
+    display: inline;
+}
+
+#botName{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    font-size: 5vh;
+    display: inline;
+}
+
+
+.buttons{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    transition: all 0.3s;
+    padding: 0px;
+    border-style: outset;
+}
+
+.buttonContainer{
+    transition: all 0.3s;
+}
+
+.buttonContainer:hover i{
+    color: rgb(70, 104, 255);
+    border-left: 5px solid white;
+    
+}
+
+
+i{
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+.buttonText{
+    font-size: 4vh;
+}
+#buttonsDivContainer{
+    margin: 4vw 4vw;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#credits{
+    display: inline-block;
+}
+
+.credith2{
+    display: inline-block;
+}
