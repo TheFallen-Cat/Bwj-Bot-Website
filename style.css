@@ -35,7 +35,7 @@ body{
 #bwjIcon{
     width: 30vh;
     height: auto;
-    display: block;
+    display: inline;
 }
 
 #botName{
